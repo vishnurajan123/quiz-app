@@ -17,7 +17,7 @@ function Quiz({quizz,rightAns,setRightans,setAnsRight,setIsreset,setScore,score,
    
     
   return (
-    <div className='w-100 d-flex justify-content-center align-items-center flex-column '>
+    <div className='w-100 d-flex justify-content-center align-items-center flex-column flex-wrap'>
             <div className='  qn'>
                 <p>{quizz.id} . {quizz.qn}</p>
 

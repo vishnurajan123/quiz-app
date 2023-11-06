@@ -40,18 +40,22 @@
     padding: 20px;
     box-shadow: rgba(27, 27, 27, 0.623) 0px 10px 50px;   
      width: 900px;
-    height: 400px;
+   
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: black;
     border-radius: 30px;
     margin-top: 20px;
+    padding: 50px 0px;
 }
 
 @media(max-width:900px) {
     .card{
         width: 350px;
-        min-height: 70vh;
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
     }
     .qn{
         width: 19rem;

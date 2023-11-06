@@ -372,7 +372,7 @@ function ViewQuiz() {
 
     }
   return (
-    <div style={{minHeight:"100vh"}}  className={isReset?"d-flex justify-content-center align-items-center flex-column start haha":"d-flex justify-content-center align-items-center flex-column start"}>
+    <div style={{minHeight:"100vh"}}  className={isReset?"d-flex justify-content-center align-items-center flex-column flex-wrap start haha":"d-flex justify-content-center align-items-center flex-column flex-wrap start"}>
        <div className='st'>
             <h1>Score :{score}</h1>
             <h4 className='text-danger'>Remaining time : {countdown || "-"}</h4>
